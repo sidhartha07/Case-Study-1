@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body background */
+body{
+    background-size: cover;
+}
+
+/* Navbar */
+.navbar{
+    background-color: rgb(21, 37, 77);
+}
+
+#img-decor{
+    margin-left: 2em;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.btn-decor{
+    /* border: 1px solid red; */
+    margin-left: 42em;
+    font-size: larger;
+}
+.head-decor{
+    /* border: 1px solid red; */
+    margin-left: 12px;
+    font-size: larger;
+    color:#fff!important;
+}
+.nav-link{
+    color: #fff!important;
+}
+/* form */
+#login-desc{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+}
+.form-decor{
+    border: 3px solid darkblue;
+    border-radius: 3%;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    margin-top: 4%;
+    margin-left: 32%;
+}
+.sign-btn{
+    margin-left: 40%;
+    margin-bottom: 3%;
+}
+.form-head{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(32, 40, 87);
+    padding: 3px;
+    color: rgb(255, 255, 255);
+}
+#labels{
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(32, 40, 87);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+#msg{
+    color: black;
+    background-color: rgb(185, 185, 185);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}
+
+/* description */
+.desc{
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#desc-head{
+    font-size: 250%;
+    font-weight: bold;
+}
+#desc-decor{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+/* todo list */
+#todo-head{
+    text-align: center;
+    background-color: rgb(97, 95, 89);
+    font-style: normal;
+    font-family: "Times New Roman", Times, serif;
+}
+table{
+    margin-top: 3%;
+    margin-left: 20%;
+    background-color: rgb(116, 150, 172);
+}
+table,th,td{
+    border: 2px solid darkslateblue;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(32, 40, 87);
+}
+#list-body{
+    background: url("bgg.webp");
+    background-size: contain;
+    background-attachment: fixed;
+}
